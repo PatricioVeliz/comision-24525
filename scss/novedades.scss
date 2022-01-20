@@ -1,0 +1,100 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&family=Roboto+Condensed:wght@300;400;700&display=swap');
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	background-image: repeating-linear-gradient(90deg, #2a1f57, #2a1f57 20px, #261c4e 20px, #261c4e 40px);
+    font-size: 16px;
+}
+
+ .carousel-inner{
+    max-height: 39rem;
+} 
+
+.gridcontainer{
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+
+.menu a{
+    color: black;
+}
+
+.header {
+	grid-area: header;
+	padding: 20px;
+	background: #f4a32e;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+.header .logo {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+.main{
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+}
+
+
+.titulos{
+    text-align: center;
+    color: blanchedalmond;
+}
+.formulario{
+    color: blanchedalmond;
+}
+
+.color{
+    color: blanchedalmond;
+}
+.figure{
+    padding: 20rem;
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    main{
+        height: 500px;
+        width: 500px;
+    }
+    .figure{
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) { 
+    .carro__tam{
+        margin: 10rem;
+    }  
+  
+    
+ }
+
+@media (min-width: 992px) { 
+    .carro__tam{
+    margin: 10rem;
+}  
+}
+
+@media (min-width: 1200px) { 
+     .carro__tam{
+    margin: 10rem;
+} 
+}
